@@ -47,7 +47,8 @@ public class MainWindow : Window, IDisposable
 
     public void Initialize()
     {
-        monsterLanguage = StaticData.MonsterNames[Plugin.ClientState.ClientLanguage];
+        monsterLanguage = null;
+        // monsterLanguage = StaticData.MonsterNames[Plugin.ClientState.ClientLanguage];
 
         var classJobs = Plugin.Data.GetExcelSheet<ClassJob>()!;
         for (var i = 0; i < JobArray.Length; i++)

@@ -44,7 +44,8 @@ public class XLWindow : Window, IDisposable
 
     public void Initialize()
     {
-        monsterLanguage = StaticData.MonsterNames[Plugin.ClientState.ClientLanguage];
+        monsterLanguage = null;
+        // monsterLanguage = StaticData.MonsterNames[Plugin.ClientState.ClientLanguage];
     }
 
     public void Dispose() { }

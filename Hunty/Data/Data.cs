@@ -32,6 +32,7 @@ public static class StaticData
         { ClientLanguage.German, new Dictionary<string, string>() },
         { ClientLanguage.French, new Dictionary<string, string>() },
         { ClientLanguage.Japanese, new Dictionary<string, string>() },
+        { ClientLanguage.ChineseSimplified, new Dictionary<string, string>() }
     };
 
     public static readonly List<string> GermanPronouns = new()
